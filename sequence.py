@@ -22,7 +22,7 @@ print(third_num)
 
 counter = 3 # counter starts at 3 because first three numbers of sequencd have already been defined
 
-while counter <= n:
+while counter < n:
     current_num = first_num + second_num + third_num
     print(current_num)
     first_num = second_num
